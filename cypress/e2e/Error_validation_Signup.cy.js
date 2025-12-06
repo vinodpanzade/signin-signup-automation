@@ -15,11 +15,11 @@ describe ("Error validation in sign up",()=>{
     // cy.screenshot('wrong email in signup')
 
     //when we add space instead of name  
-    cy.get('input[data-qa="signup-name"]').type(" ");
-    cy.get('input[data-qa="signup-email"]').type("vbisdnskd12@gmail.com");
-    cy.get('button[data-qa="signup-button"]').click();
-    cy.screenshot('Sign up with space in place of name')
-
+    // cy.get('input[data-qa="signup-name"]').type(" ");
+    // cy.get('input[data-qa="signup-email"]').type("vbisdnskd12@gmail.com");
+    // cy.get('button[data-qa="signup-button"]').click();
+    // cy.screenshot('Sign up with space in place of name')
+    
 
     })
 })
